@@ -15,10 +15,12 @@
 
 """Text datasets."""
 
+from tensorflow_datasets.text.big_patent import BigPatent
 from tensorflow_datasets.text.cnn_dailymail import CnnDailymail
 from tensorflow_datasets.text.cnn_dailymail import CnnDailymailConfig
 from tensorflow_datasets.text.definite_pronoun_resolution import DefinitePronounResolution
 from tensorflow_datasets.text.gap import Gap
+from tensorflow_datasets.text.gigaword import Gigaword
 from tensorflow_datasets.text.glue import Glue
 from tensorflow_datasets.text.imdb import IMDBReviews
 from tensorflow_datasets.text.imdb import IMDBReviewsConfig
@@ -32,3 +34,4 @@ from tensorflow_datasets.text.super_glue import SuperGlue
 from tensorflow_datasets.text.trivia_qa import TriviaQA
 from tensorflow_datasets.text.wikipedia import Wikipedia
 from tensorflow_datasets.text.xnli import Xnli
+from tensorflow_datasets.text.xsum import Xsum
